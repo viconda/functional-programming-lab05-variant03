@@ -1,0 +1,323 @@
+{
+  "python": "3.12.14",
+  "analysis": [
+    {
+      "name": "fib",
+      "n": 5,
+      "result": 5,
+      "calls": 15,
+      "max_depth": 5
+    },
+    {
+      "name": "binomial",
+      "n": 5,
+      "result": 10,
+      "calls": 19,
+      "max_depth": 5
+    },
+    {
+      "name": "fast_power",
+      "n": 5,
+      "result": 32,
+      "calls": 4,
+      "max_depth": 4
+    },
+    {
+      "name": "fib",
+      "n": 10,
+      "result": 55,
+      "calls": 177,
+      "max_depth": 10
+    },
+    {
+      "name": "binomial",
+      "n": 10,
+      "result": 252,
+      "calls": 503,
+      "max_depth": 10
+    },
+    {
+      "name": "fast_power",
+      "n": 10,
+      "result": 1024,
+      "calls": 5,
+      "max_depth": 5
+    },
+    {
+      "name": "fib",
+      "n": 15,
+      "result": 610,
+      "calls": 1973,
+      "max_depth": 15
+    },
+    {
+      "name": "binomial",
+      "n": 15,
+      "result": 6435,
+      "calls": 12869,
+      "max_depth": 15
+    },
+    {
+      "name": "fast_power",
+      "n": 15,
+      "result": 32768,
+      "calls": 5,
+      "max_depth": 5
+    },
+    {
+      "name": "fib",
+      "n": 20,
+      "result": 6765,
+      "calls": 21891,
+      "max_depth": 20
+    },
+    {
+      "name": "binomial",
+      "n": 20,
+      "result": 184756,
+      "calls": 369511,
+      "max_depth": 20
+    },
+    {
+      "name": "fast_power",
+      "n": 20,
+      "result": 1048576,
+      "calls": 6,
+      "max_depth": 6
+    },
+    {
+      "name": "fib",
+      "n": 25,
+      "result": 75025,
+      "calls": 242785,
+      "max_depth": 25
+    },
+    {
+      "name": "binomial",
+      "n": 25,
+      "result": 5200300,
+      "calls": 10400599,
+      "max_depth": 25
+    },
+    {
+      "name": "fast_power",
+      "n": 25,
+      "result": 33554432,
+      "calls": 6,
+      "max_depth": 6
+    }
+  ],
+  "timing": [
+    {
+      "name": "factorial",
+      "n_or_digits": 10,
+      "number": 1000,
+      "iter_number": 1000,
+      "rec_us": 0.5999000277370214,
+      "iter_us": 0.3301000688225031
+    },
+    {
+      "name": "factorial",
+      "n_or_digits": 100,
+      "number": 1000,
+      "iter_number": 1000,
+      "rec_us": 6.833000108599663,
+      "iter_us": 3.4950999543070793
+    },
+    {
+      "name": "factorial",
+      "n_or_digits": 500,
+      "number": 1000,
+      "iter_number": 1000,
+      "rec_us": 90.57820006273687,
+      "iter_us": 42.38020000047982
+    },
+    {
+      "name": "fib",
+      "n_or_digits": 10,
+      "number": 2000,
+      "iter_number": 20000,
+      "rec_us": 8.128150017000735,
+      "iter_us": 0.2858899999409914
+    },
+    {
+      "name": "fib",
+      "n_or_digits": 20,
+      "number": 50,
+      "iter_number": 20000,
+      "rec_us": 1030.5320005863905,
+      "iter_us": 0.5273599992506206
+    },
+    {
+      "name": "fib",
+      "n_or_digits": 25,
+      "number": 5,
+      "iter_number": 20000,
+      "rec_us": 10650.2799782902,
+      "iter_us": 0.5833150004036725
+    },
+    {
+      "name": "digit_sum",
+      "n_or_digits": 10,
+      "number": 1000,
+      "iter_number": 1000,
+      "rec_us": 0.664600171148777,
+      "iter_us": 0.5040999967604876
+    },
+    {
+      "name": "digit_sum",
+      "n_or_digits": 50,
+      "number": 1000,
+      "iter_number": 1000,
+      "rec_us": 4.034199984744191,
+      "iter_us": 2.7689000125974417
+    },
+    {
+      "name": "digit_sum",
+      "n_or_digits": 300,
+      "number": 1000,
+      "iter_number": 1000,
+      "rec_us": 68.79619997926056,
+      "iter_us": 31.12020017579198
+    }
+  ],
+  "variant": [
+    {
+      "name": "tribonacci",
+      "args": [
+        5
+      ],
+      "result": 4,
+      "calls": 13,
+      "max_depth": 4,
+      "number": 500,
+      "iter_number": 10000,
+      "rec_us": 0.6666001863777637,
+      "iter_us": 0.27507999911904335
+    },
+    {
+      "name": "tribonacci",
+      "args": [
+        10
+      ],
+      "result": 81,
+      "calls": 289,
+      "max_depth": 9,
+      "number": 500,
+      "iter_number": 10000,
+      "rec_us": 15.167600009590387,
+      "iter_us": 0.39949999190866947
+    },
+    {
+      "name": "tribonacci",
+      "args": [
+        15
+      ],
+      "result": 1705,
+      "calls": 6094,
+      "max_depth": 14,
+      "number": 500,
+      "iter_number": 10000,
+      "rec_us": 316.8998002074659,
+      "iter_us": 0.5987599957734346
+    },
+    {
+      "name": "substrings",
+      "args": [
+        "abc"
+      ],
+      "result": 6,
+      "calls": 10,
+      "max_depth": 10,
+      "number": 500,
+      "iter_number": 10000,
+      "rec_us": 0.9824000298976898,
+      "iter_us": 0.6349100032821298
+    },
+    {
+      "name": "substrings",
+      "args": [
+        "banana"
+      ],
+      "result": 21,
+      "calls": 28,
+      "max_depth": 28,
+      "number": 500,
+      "iter_number": 10000,
+      "rec_us": 4.047599621117115,
+      "iter_us": 1.8395100021734834
+    },
+    {
+      "name": "substrings",
+      "args": [
+        "abcdefghij"
+      ],
+      "result": 55,
+      "calls": 66,
+      "max_depth": 66,
+      "number": 500,
+      "iter_number": 10000,
+      "rec_us": 10.943999979645014,
+      "iter_us": 4.242420010268688
+    },
+    {
+      "name": "grid_paths",
+      "args": [
+        3,
+        3
+      ],
+      "result": 6,
+      "calls": 11,
+      "max_depth": 4,
+      "number": 500,
+      "iter_number": 10000,
+      "rec_us": 0.8256002329289913,
+      "iter_us": 0.5313999950885773
+    },
+    {
+      "name": "grid_paths",
+      "args": [
+        5,
+        5
+      ],
+      "result": 70,
+      "calls": 139,
+      "max_depth": 8,
+      "number": 500,
+      "iter_number": 10000,
+      "rec_us": 9.78859979659319,
+      "iter_us": 1.1415099957957864
+    },
+    {
+      "name": "grid_paths",
+      "args": [
+        8,
+        8
+      ],
+      "result": 3432,
+      "calls": 6863,
+      "max_depth": 14,
+      "number": 500,
+      "iter_number": 10000,
+      "rec_us": 472.4224000237882,
+      "iter_us": 2.9035900020971894
+    }
+  ],
+  "boundaries": [
+    {
+      "limit": 1000,
+      "last_success": 993,
+      "first_error": 994
+    },
+    {
+      "limit": 5000,
+      "last_success": 4993,
+      "first_error": 4994
+    }
+  ],
+  "base_timing": {
+    "number": 2000,
+    "rec_us": 31.774600036442276,
+    "iter_us": 15.70104993879795
+  }
+}
